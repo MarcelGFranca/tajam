@@ -1,28 +1,29 @@
-// Settings
-@import './0-settings/s-colors';
-@import './0-settings/s-typography';
+ /* Settings */
+/* @import './0-settings/s-colors'; */
+/* @import './0-settings/s-typography'; */
 
-// Vendors
+/*  /1* Vendors *1/ */
 
-// Tools
-@import './2-tools/t-icon';
-@import './2-tools/t-respond-to';
-@import './2-tools/t-site-limit';
+/*  /1* Tools *1/ */
+/* @import './2-tools/t-icon'; */
+/* @import './2-tools/t-respond-to'; */
+/* @import './2-tools/t-site-limit'; */
 
-// Animations
+/*  /1* Animations *1/ */
 
-// Base
-@import './4-base/b-defaults';
+/*  /1* Base *1/ */
+@import url('4-base/b-defaults.css');
 
-// Objetcs
-@import './5-objects/o-text';
+/*  /1* Objetcs *1/ */
+/* @import './5-objects/o-text'; */
 
-// Components
-@import './6-components/c-header';
-@import './6-components/c-footer';
-@import './6-components/c-nav';
+/*  /1* Components *1/ */
+/* @import './6-components/c-header'; */
+/* @import './6-components/c-footer'; */
+/* @import './6-components/c-nav'; */
 
-// Sections
-@import './7-sections/s-webdoor';
+/* Sections */
+@import url('7-sections/s-webdoor.css');
 
-// Layouts
+/* Layouts */
+

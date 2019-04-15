@@ -1,0 +1,10 @@
+.s-webdoor {
+  background: url('../../images/header_bg.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  height: 670px;
+  position: relative;
+  max-height: 670px;
+}
+
