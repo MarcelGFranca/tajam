@@ -1,6 +1,6 @@
  /* Settings */
-/* @import './0-settings/s-colors'; */
-/* @import './0-settings/s-typography'; */
+@import url('0-settings/s-colors.css');
+@import url('0-settings/s-typography.css');
 
 /*  /1* Vendors *1/ */
 
@@ -18,9 +18,9 @@
 /* @import './5-objects/o-text'; */
 
 /*  /1* Components *1/ */
-/* @import './6-components/c-header'; */
 /* @import './6-components/c-footer'; */
-/* @import './6-components/c-nav'; */
+@import url('6-components/c-header.css');
+@import url('6-components/c-nav.css');
 
 /* Sections */
 @import url('7-sections/s-webdoor.css');
