@@ -2,3 +2,8 @@
   position: fixed;
   z-index: 2;
 }
+
+.c-header__logo-container {
+  max-width: 50px;
+  display: inline-block;
+}
