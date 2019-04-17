@@ -1,11 +1,27 @@
 .c-nav {
   display: inline-block;
+  float: right;
+  margin: 20px 0 0;
 }
 
 .c-nav__menu {
   text-align: right;
   list-style: none;
   display: inline;
+  padding-left: 0;
+}
+
+.c-nav__menu-item {
+  display: inline;
+  margin: 0 5px;
+}
+
+.c-nav__menu-item:first-child {
+  margin: 0 5px 0 0;
+}
+
+.c-nav__menu-item:last-child {
+  margin: 0 0 0 5px;
 }
 
 .c-nav__menu-link {
