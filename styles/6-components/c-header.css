@@ -3,11 +3,18 @@
   z-index: 2;
   margin: 0 auto;
   display: block;
+  width: 100%
 }
 
-.c-header__logo-container {
+.c-header__container {
+  width: 950px;
+  margin: 0 auto;
+}
+
+.c-header__logo {
   width: 50px;
   z-index: 2;
+  display: inline-block;
 }
 
 .c-header__logo-img {

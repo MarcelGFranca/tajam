@@ -1,12 +1,11 @@
 .c-nav {
-  display: block;
+  display: inline-block;
 }
 
 .c-nav__menu {
-  width: 950px;
-  max-width: 950px;
   text-align: right;
   list-style: none;
+  display: inline;
 }
 
 .c-nav__menu-link {
