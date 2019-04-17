@@ -1,0 +1,16 @@
+.c-header {
+  position: fixed;
+  z-index: 2;
+  margin: 0 auto;
+  display: block;
+}
+
+.c-header__logo-container {
+  width: 50px;
+  z-index: 2;
+}
+
+.c-header__logo-img {
+  width: 50px;
+  height: 44px;
+}
