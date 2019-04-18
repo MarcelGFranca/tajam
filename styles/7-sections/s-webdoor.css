@@ -20,7 +20,11 @@
 }
 
 .s-webdoor__container {
-  
+  top: 400px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .s-webdoor__title {
@@ -28,12 +32,29 @@
   color: #ffffff;
   font-family: 'Playfair-Display-Black';
   position: absolute;
-  top: 225px;
 }
 
 .s-webdoor__subtitle {
   font-size: 14px;
   color: #ffffff;
   position: absolute;
-  top: 280px;
+}
+
+.s-webdoor__subtitle:before {
+  content: "";
+  height: 1px;
+  width: 50px;
+  display: block;
+  position: relative;
+  background-color: #00e0d0;
+  bottom: 30px;
+  text-align: center;
+}
+
+.s-webdoor__button {
+  display: block;
+  position: relative;
+  height: 40px;
+  width: 40px;
+  border: 1px solid #00e0d0;
 }
