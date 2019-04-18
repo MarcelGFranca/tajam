@@ -5,6 +5,8 @@
   font-family: 'Roboto';
   font-weight: bold;
   font-size: 13px;
+  color: #ffffff;
+  z-index: 2;
 }
 
 .c-nav__menu {
@@ -17,11 +19,7 @@
 
 .c-nav__menu-item {
   display: inline;
-  margin: 0 5px;
-}
-
-.c-nav_menu-item--color {
-  color: #00e0d0;
+  margin: 0 15px;
 }
 
 .c-nav__menu-item:first-child {
@@ -37,4 +35,8 @@
   text-decoration: none;
   font-size: 13px;
   color: #ffffff;
+}
+
+.c-nav__menu-link--colored {
+  color: #00e0d0;
 }
