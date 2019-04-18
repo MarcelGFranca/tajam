@@ -1,3 +1,11 @@
  /* Font Families */
 
+@font-face {
+  font-family: 'Playfair-Display-Black';
+    src:  url('../../fonts/playfair-display-black/Playfair-Display-Black.ttf.woff') format('woff'),
+    url('../../fonts/playfair-display-black/Playfair-Display-Black.ttf.svg#Playfair-Display-Black') format('svg'),
+    url('../../fonts/playfair-display-black/Playfair-Display-Black.ttf.eot'),
+    url('../../fonts/playfair-display-black/Playfair-Display-Black.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
  /* Font Weight */

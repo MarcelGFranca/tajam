@@ -1,5 +1,5 @@
 .s-webdoor {
-  background: url('../../images/header_bg.jpg');
+  background: url('../../images/header_bg.png');
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -8,3 +8,19 @@
   max-height: 670px;
 }
 
+.s-webdoor:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #372f59;
+  opacity: 0.8;
+}
+
+.s-webdoor__title {
+  font-size: 32px;
+  color: #ffffff;
+  font-family: 'Playfair-Display-Black';
+}
