@@ -6,6 +6,7 @@
   height: 670px;
   position: relative;
   max-height: 670px;
+  text-align: center;
 }
 
 .s-webdoor:before {
@@ -23,4 +24,6 @@
   font-size: 32px;
   color: #ffffff;
   font-family: 'Playfair-Display-Black';
+  position: absolute;
+  top: 200px;
 }
