@@ -5,9 +5,6 @@
 /*  /1* Vendors *1/ */
 
 /*  /1* Tools *1/ */
-/* @import './2-tools/t-icon'; */
-/* @import './2-tools/t-respond-to'; */
-/* @import './2-tools/t-site-limit'; */
 @import url('2-tools/t-container.css');
 
 /*  /1* Animations *1/ */
@@ -16,10 +13,9 @@
 @import url('4-base/b-defaults.css');
 
 /*  /1* Objetcs *1/ */
-/* @import './5-objects/o-text'; */
+@import './5-objects/o-carousel.css';
 
 /*  /1* Components *1/ */
-/* @import './6-components/c-footer'; */
 @import url('6-components/c-header.css');
 @import url('6-components/c-nav.css');
 
