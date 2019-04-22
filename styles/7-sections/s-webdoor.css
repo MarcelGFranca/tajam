@@ -13,24 +13,29 @@
 }
 
 .s-webdoor__container {
-  top: 400px;
-  position: relative;
+  top: 250px;
+  position: absolute;
   text-align: center;
   width: 100%;
   margin: 0 auto;
 }
 
 .s-webdoor__title {
-  font-size: 32px;
+  font-size: 36px;
   color: #ffffff;
   font-family: 'Playfair-Display-Black';
-  position: absolute;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .s-webdoor__subtitle {
   font-size: 14px;
+  top: 20px;
   color: #ffffff;
-  position: absolute;
+  max-width: 60%;
+  margin: 0 auto;
+  text-align: justify;
+  text-align-last: center;
 }
 
 .s-webdoor__subtitle:before {
