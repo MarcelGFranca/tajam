@@ -33,20 +33,19 @@
   top: 20px;
   color: #ffffff;
   max-width: 60%;
-  margin: 0 auto;
+  margin: 60px auto 0;
   text-align: justify;
   text-align-last: center;
 }
 
 .s-webdoor__subtitle:before {
   content: "";
+  position: absolute;
   height: 1px;
-  width: 50px;
-  display: block;
-  position: relative;
+  width: 127px;
   background-color: #00e0d0;
-  bottom: 30px;
-  text-align: center;
+  top: 75px;
+  right: 310px;
 }
 
 .s-webdoor__button {
