@@ -4,6 +4,7 @@
   background-size: cover;
   height: 670px;
   position: relative;
+  text-align: center;
 }
 
 .s-webdoor__overlay {
@@ -14,9 +15,10 @@
 
 .s-webdoor__container {
   top: 250px;
-  position: absolute;
+  display: block;
+  position: relative;
   text-align: center;
-  width: 100%;
+  width: 950px;
   height: 300px;
   margin: 0 auto;
 }
@@ -47,7 +49,8 @@
   width: 127px;
   background-color: #00e0d0;
   top: 65px;
-  right: 310px;
+  right: 50%;
+  transform: translateX(50%);
 }
 
 .s-webdoor__button {
