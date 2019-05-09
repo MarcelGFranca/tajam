@@ -2,3 +2,17 @@
 	height: 400px;
 	width: 100%;
 }
+
+.s-story__container {
+	width: 950px;
+	margin: 70px auto;
+}
+
+.s-story__logo {
+  display: inline-block;
+}
+
+.s-story__title {
+  display: inline-block;
+}
+
