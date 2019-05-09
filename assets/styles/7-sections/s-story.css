@@ -8,11 +8,15 @@
 	margin: 70px auto;
 }
 
+.s-story__text-container {
+  display: inline-block;
+  margin-left: 100px;
+}
+
 .s-story__logo {
   display: inline-block;
 }
 
 .s-story__title {
-  display: inline-block;
 }
 
