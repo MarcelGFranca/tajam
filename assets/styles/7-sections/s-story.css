@@ -8,7 +8,7 @@
 	margin: 70px auto;
 }
 
-.s-story__text-container {
+.s-story__container-text {
   display: inline-block;
   margin-left: 100px;
   width: 500px;
@@ -25,3 +25,9 @@
   line-height: 22px;
 }
 
+.s-story__container-button {
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  display: block;
+}

@@ -41,4 +41,14 @@
   text-align: justify;
   text-align-last: center;
 }
+.s-webdoor__subtitle:before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 127px;
+  background-color: #00e0d0;
+  top: 65px;
+  right: 50%;
+  transform: translateX(50%);
+}
 
