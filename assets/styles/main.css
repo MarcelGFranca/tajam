@@ -16,10 +16,10 @@
 @import './5-objects/o-carousel.css';
 
 /* Components */
-@import url('6-components/c-header.css');
 @import url('6-components/c-nav.css');
 
 /* Sections */
+@import url('7-sections/s-header.css');
 @import url('7-sections/s-webdoor.css');
 @import url('7-sections/s-story.css');
 

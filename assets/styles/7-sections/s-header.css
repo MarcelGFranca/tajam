@@ -1,4 +1,4 @@
-.c-header {
+.s-header {
   position: fixed;
   z-index: 2;
   margin: 0 auto;
@@ -6,26 +6,26 @@
   width: 100%
 }
 
-.c-header__container {
+.s-header__container {
   width: 950px;
   margin: 0 auto;
 }
 
-.c-header__logo {
+.s-header__logo {
   z-index: 2;
   display: inline-block;
 }
 
-.c-header__logo-link {
+.s-header__logo-link {
   text-decoration: none;
 }
 
-.c-header__logo-img {
+.s-header__logo-img {
   height: 44px;
   display: inline;
 }
 
-.c-header__logo-text {
+.s-header__logo-text {
   color: #00e0d0;
   display: inline;
   font-family: 'Roboto';
