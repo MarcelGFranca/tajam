@@ -42,30 +42,3 @@
   text-align-last: center;
 }
 
-.s-webdoor__subtitle:before {
-  content: "";
-  position: absolute;
-  height: 1px;
-  width: 127px;
-  background-color: #00e0d0;
-  top: 65px;
-  right: 50%;
-  transform: translateX(50%);
-}
-
-.s-webdoor__button {
-  display: block;
-  position: absolute;
-  height: 45px;
-  width: 160px;
-  border: 1px solid #00e0d0;
-  color: #00e0d0;
-  padding-top: 10px;
-  letter-spacing: 1px;
-  border-radius: 0px;
-  font-size: 20px;
-  text-align: center;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-top: 20px;
-}

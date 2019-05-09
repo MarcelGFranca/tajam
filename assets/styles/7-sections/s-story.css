@@ -11,12 +11,17 @@
 .s-story__text-container {
   display: inline-block;
   margin-left: 100px;
+  width: 500px;
 }
 
 .s-story__logo {
   display: inline-block;
 }
 
-.s-story__title {
+.s-story__text {
+  // font-family: roboto-light;
+  font-size: 14px;
+  color: #413d4b;
+  line-height: 22px;
 }
 
