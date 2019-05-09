@@ -2,25 +2,26 @@
 @import url('0-settings/s-colors.css');
 @import url('0-settings/s-typography.css');
 
-/*  /1* Vendors *1/ */
+/* Vendors */
 
-/*  /1* Tools *1/ */
+/* Tools */
 @import url('2-tools/t-container.css');
 
-/*  /1* Animations *1/ */
+/* Animations */
 
-/*  /1* Base *1/ */
+/* Base */
 @import url('4-base/b-defaults.css');
 
-/*  /1* Objetcs *1/ */
+/* Objetcs */
 @import './5-objects/o-carousel.css';
 
-/*  /1* Components *1/ */
+/* Components */
 @import url('6-components/c-header.css');
 @import url('6-components/c-nav.css');
 
 /* Sections */
 @import url('7-sections/s-webdoor.css');
+@import url('7-sections/s-story.css');
 
 /* Layouts */
 
