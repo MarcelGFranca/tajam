@@ -1,5 +1,10 @@
 .o-title {
 	font-size: 22px;
-	color: #413d4b;
+  text-transform: uppercase;
 	// font-family: PlayFairDisplayBold;	
+}
+
+.o-subtitle {
+  font-size: 14px;
+  // font-family: PlayFairDisplayRegular;
 }

@@ -1,0 +1,21 @@
+.s-expertise {
+  height: 755px;
+}
+
+.s-expertise__container {
+  margin: 0 auto;
+}
+
+.s-expertise__title-container {
+  width: 405px;
+  height: 70px;
+  margin: 70px auto 0;
+}
+
+.s-expertise__title {
+  text-align: center;
+}
+
+.s-expertise__subtitle {
+  text-align: center;  
+}
