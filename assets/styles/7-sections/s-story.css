@@ -41,3 +41,17 @@
   text-align: center;
   height: 550px;
 }
+
+.s-story__video-wrapper{
+  position: relative;
+  margin: 0 auto;
+  top: 202px;
+}
+
+.s-story__video-text {
+  // font-family: roboto-black;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 35px;
+}
