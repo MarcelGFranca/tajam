@@ -1,0 +1,70 @@
+.s-expertise {
+  height: 755px;
+}
+
+.s-expertise__container {
+  margin: 0 auto;
+}
+
+.s-expertise__title-container {
+  width: 405px;
+  height: 70px;
+  margin: 70px auto 0;
+}
+
+.s-expertise__title {
+  text-align: center;
+}
+
+.s-expertise__subtitle {
+  text-align: center;  
+}
+
+.s-expertise__abilities-container {
+  width: 940px;
+  height: 500px;
+  margin: 50px auto 0;
+}
+
+.s-expertise__abilities-box {
+  width: 310px;
+  height: 250px;
+  /* margin: 0 auto; */
+}
+
+.s-expertise__abilities-img {
+  margin: 0 auto;
+  padding-top: 30px;
+  display: block;
+}
+
+.s-expertise__abilities-title {
+  font-size: 14px;
+  color: #413d4b;
+  // font-family: roboto-black;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 35px auto 25px;
+}
+
+.s-expertise__abilities-text-wrapper {
+  width: 255px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.s-expertise__abilities-text {
+  text-align: center;
+  // font-family: robotolightregular;
+  font-size: 14px;
+}
+
+.s-expertise__abilities-box--first-item,
+.s-expertise__abilities-box--second-item,
+.s-expertise__abilities-box--third-item,
+.s-expertise__abilities-box--fourth-item,
+.s-expertise__abilities-box--fifth-item,
+.s-expertise__abilities-box--sixth-item {
+  display: inline-block;
+  /* width: 33%; */
+}
