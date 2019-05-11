@@ -8,17 +8,18 @@
 	margin: 70px auto;
 }
 
-.s-story__container-text {
+.s-story__text-wrapper {
   display: inline-block;
   margin-left: 100px;
   width: 500px;
+  vertical-align: top;
 }
 
 .s-story__logo {
   display: inline-block;
 }
 
-.s-story__text {
+.s-story__full-text {
   // font-family: roboto-light;
   font-size: 14px;
   color: #413d4b;
@@ -42,7 +43,7 @@
   height: 550px;
 }
 
-.s-story__video-wrapper {
+.s-story__video-wrapper{
   position: relative;
   margin: 0 auto;
   top: 202px;
