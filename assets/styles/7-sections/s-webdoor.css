@@ -7,12 +7,6 @@
   text-align: center;
 }
 
-.s-webdoor__overlay {
-  background-color: rgba(76,61,114, 0.5);
-  width: 100%;
-  height: 670px;
-}
-
 .s-webdoor__container {
   top: 250px;
   display: block;

@@ -32,3 +32,26 @@
   height: 100%;
   display: block;
 }
+
+.s-story__video {
+  background: url('../../images/story_bg.png');
+  background-position: top;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  height: 550px;
+}
+
+.s-story__video-wrapper {
+  position: relative;
+  margin: 0 auto;
+  top: 202px;
+}
+
+.s-story__video-text {
+  // font-family: roboto-black;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 35px;
+}

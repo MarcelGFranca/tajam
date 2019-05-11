@@ -19,6 +19,7 @@
 
 /* Components */
 @import url('6-components/c-nav.css');
+@import url('6-components/c-overlay.css');
 
 /* Sections */
 @import url('7-sections/s-header.css');
