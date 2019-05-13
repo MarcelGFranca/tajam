@@ -1,5 +1,5 @@
 .s-story {
-	height: 400px;
+	height: 952px;
 	width: 100%;
 }
 
@@ -34,7 +34,11 @@
   display: block;
 }
 
-.s-story__video {
+.s-story__text-box {
+  height: 400px;
+}
+
+.s-story__video-box {
   background: url('../../images/story_bg.png');
   background-position: top;
   background-size: cover;
