@@ -35,6 +35,7 @@
   text-align: justify;
   text-align-last: center;
 }
+
 .s-webdoor__subtitle:before {
   content: "";
   position: absolute;
