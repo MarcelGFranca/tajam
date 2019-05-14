@@ -24,7 +24,7 @@
 .s-expertise__subtitle:before {
   content: "";
   position: absolute;
-  height: 1px;
+  height: 2px;
   width: 50px;
   background-color: #c6c4c9;
   top: 40px;
@@ -71,12 +71,39 @@
   font-size: 14px;
 }
 
-.s-expertise__abilities-box--first-item,
-.s-expertise__abilities-box--second-item,
-.s-expertise__abilities-box--third-item,
-.s-expertise__abilities-box--fourth-item,
-.s-expertise__abilities-box--fifth-item,
+.s-expertise__abilities-box--first-item {
+  display: inline-block;
+  border-right: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+  vertical-align: top;
+}
+
+.s-expertise__abilities-box--second-item {
+  display: inline-block;
+  border-right: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+  vertical-align: top;
+}
+
+.s-expertise__abilities-box--third-item {
+  display: inline-block;
+  border-bottom: 1px solid #ebebeb;
+  vertical-align: top;
+}
+
+.s-expertise__abilities-box--fourth-item {
+  display: inline-block;
+  border-right: 1px solid #ebebeb;
+  vertical-align: top;
+}
+
+.s-expertise__abilities-box--fifth-item {
+  display: inline-block;
+  border-right: 1px solid #ebebeb;
+  vertical-align: top;
+}
+
 .s-expertise__abilities-box--sixth-item {
   display: inline-block;
-  /* width: 33%; */
+  vertical-align: top;
 }
