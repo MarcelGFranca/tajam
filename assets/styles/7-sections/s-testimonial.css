@@ -1,0 +1,8 @@
+.s-testimonial {
+  width: 100%;
+  height: 500px;
+  background: url('../../images/testimonial_bg.png');
+  background-position: top;
+  background-size: cover;
+  text-align: center;
+}
