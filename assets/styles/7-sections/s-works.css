@@ -30,6 +30,11 @@
   font-size: 30px;
 }
 
+.s-works__works-container {
+  margin: 0 auto;
+  display: block;
+}
+
 .s-works__works-box {
   width: 267px;;
   height: 200px;
@@ -46,4 +51,54 @@
 
 .s-works__works-box--second {
   background-color: #acacac;
+}
+
+.s-works__works-box--third {
+  background-color: #a1a1a1;
+}
+
+.s-works__works-box--fourth {
+  background-color: #8a8a8a;
+}
+
+.s-works__works-box--fifth {
+  background-color: #b6b6b6;
+}
+
+.s-works__works-box--sixth {
+  background-color: #a4a4a4;
+}
+
+.s-works__works-box--seventh {
+  background-color: #a4a4a4;
+}
+
+.s-works__works-box--eighth {
+  background-color: #b6b6b6;
+}
+
+.s-works__works-box--ninth {
+  background-color: #8a8a8a;
+}
+
+.s-works__works-box--tenth {
+  background-color: #a1a1a1;
+}
+
+.s-works__works-box--eleventh {
+  background-color: #acacac;
+}
+
+.s-works__works-box--twelfth {
+  background-color: #b6b6b6;
+}
+
+.s-works__button-wrapper {
+  margin: 70px auto;
+  position: relative;
+}
+
+.s-works__button {
+  display: block;
+  position: absolute;
 }
