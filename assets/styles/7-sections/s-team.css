@@ -9,14 +9,28 @@
 .s-team__title-container {
   width: 405px;
   height: 70px;
-  margin: 70px auto 0;
+  margin: 0 auto;
+  padding: 70px 0 0;
 }
 
 .s-team__title {
   text-align: center;
+  color: #ffffff;
 }
 
 .s-team__subtitle {
   text-align: center;
   position: relative;
+  color: #ffffff;
+}
+
+.s-team__subtitle:before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 50px;
+  background-color: #c6c4c9;
+  top: 40px;
+  right: 50%;
+  transform: translateX(50%);
 }
