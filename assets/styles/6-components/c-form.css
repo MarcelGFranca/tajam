@@ -1,0 +1,34 @@
+.c-form-contact {
+  width: 460px;
+  width: 530px;
+}
+
+.c-form-contact__title {
+  font-size: 22px;
+  /* font-family: playfairdisplaybold; */
+  text-transform: uppercase;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.c-form-contact__form-wrapper {
+
+}
+
+.c-form-contact__form {
+
+}
+
+.c-form-contact__form-row {
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.c-form-contact__label {
+  
+}
+
+.c-form-contact__field {
+
+}
