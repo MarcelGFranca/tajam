@@ -34,3 +34,52 @@
   right: 50%;
   transform: translateX(50%);
 }
+
+.s-team__photo-box-container {
+  margin: 145px auto 0;
+}
+
+.s-team__photo-box {
+  height: 310px;
+  width: 220px;
+  border: 1px solid #7f7a92;
+  line-height: 10px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.s-team__phot-box:nth-last-child {
+  margin-right: 0
+}
+
+.s-team__team-photo {
+  width: 218px;
+  height: 220px;
+}
+
+.s-team__team-name {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.s-team__team-position {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.s-team__hire-wrapper {
+  margin-top: 70px;
+}
+
+.s-team__hire-text {
+  color: #ffffff;
+  /* font-family: roboto light */
+}
+
+.s-team__hire-button {
+  width: 140px;
+  height: 40px;
+ // font-family: hammersmith one 
+}
