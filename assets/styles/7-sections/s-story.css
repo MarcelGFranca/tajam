@@ -34,6 +34,11 @@
   display: block;
 }
 
+.s-story__button {
+  display: block;
+  margin-left: 60px;
+}
+
 .s-story__text-box {
   height: 400px;
 }

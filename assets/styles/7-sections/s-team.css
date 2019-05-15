@@ -81,5 +81,7 @@
 .s-team__hire-button {
   width: 140px;
   height: 40px;
- // font-family: hammersmith one 
+  /* font-family: hammersmith one */ 
+  position: absolute; 
+  display: block;
 }
