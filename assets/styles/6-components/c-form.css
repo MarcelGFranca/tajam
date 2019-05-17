@@ -49,3 +49,9 @@
   height: 200px;
   border: 1px solid #e5e5e5;
 }
+
+.c-form-contact__send-button {
+  background-color: #ffffff;
+  position: relative;
+  padding: 0;
+}

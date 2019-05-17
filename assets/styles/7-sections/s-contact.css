@@ -6,3 +6,8 @@
   margin: 70px auto 0;
   width: 940px;
 }
+
+.s-contact__form-button {
+  position: relative;
+  width: 120px;
+}
