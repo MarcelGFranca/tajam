@@ -7,7 +7,21 @@
   width: 940px;
 }
 
+.s-contact__form-wrapper {
+  width: 530px;
+  display: inline-block;
+}
+
 .s-contact__form-button {
   position: relative;
   width: 120px;
+}
+
+.s-contact__clients-wrapper {
+  width: 380px;
+  display: inline-block;
+}
+
+.s-contact__clients-title {
+  color: #413d4b;
 }
