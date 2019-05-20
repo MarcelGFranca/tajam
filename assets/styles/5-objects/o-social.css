@@ -1,0 +1,13 @@
+.s-footer__social-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.s-footer__social-network {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.s-footer__social-network:last-child {
+  margin-right: 0;
+}
