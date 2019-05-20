@@ -29,14 +29,17 @@
 
 .s-contact__clients-box-wrapper--left {
   display: inline-block;
+  vertical-align: top;
+  margin-right: 30px;
 }
 
 .s-contact__clients-box-wrapper--right {
   display: inline-block;
+  vertical-align: top;
 }
 
 .s-contact__clients-box {
   width: 160px;
-  height: 75px;
+  height: 80px;
   text-align: center;
 }
