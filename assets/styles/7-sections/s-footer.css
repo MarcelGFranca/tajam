@@ -11,6 +11,86 @@
   margin: 0 auto;
 }
 
+.s-footer__about-container {
+  padding: 70px 0;
+}
+
+.s-footer__company {
+  width: 33%;
+  text-align: left;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.s-footer__company-logo {
+  margin-bottom: 25px;
+}
+
+.s-footer__company-text {
+  margin: 0;
+  color: #ffffff;
+  /* font-family: roboto-light; */
+  line-height: 26px;
+}
+
+.s-footer__address-container {
+  width: 33%;
+  text-align: left;
+  display: inline-block;
+  margin-right: 30px;
+  vertical-align: top;
+}
+
+.s-footer__address-title {
+  text-transform: uppercase;
+  text-align: left;
+  color: #ffffff;
+  /* font-family: roboto-black; */
+  margin-bottom: 40px;
+}
+
+.s-footer__address {
+  color: #ffffff;
+  line-height: 26px;
+  font-size: 14px;
+  /* font-family: roboto-light; */
+  position: relative;
+  margin-left: 30px;
+}
+
+.s-footer__address:before {
+  content: '';
+  background: url('../../images/footer_icon_pin.png');
+  background-size: cover;
+  display: inline-block;
+  position: absolute;
+  height: 19px;
+  width: 14px;
+  left: -22px;
+  top: 3px;
+}
+
+.s-footer__phone-number {
+  color: #ffffff;
+  line-height: 26px;
+  font-size: 14px;
+  /* font-family: roboto-light; */
+  margin-left: 30px;
+  position: relative;
+}
+
+.s-footer__phone-number:before {
+  content: '';
+  background: url('../../images/foooter_icon_phone.png');
+  background-size: cover;
+  display: inline-block;
+  position: absolute;
+  height: 17px;
+  width: 17px;
+  left: -25px;
+  top: 3px;
+}
+
 .s-footer__terms-container {
   width: 100%;
 }
@@ -19,6 +99,7 @@
   display: inline-block;
   width: 50%;
   float: left;
+  text-align: left;
 }
 
 .s-footer__terms-link {
@@ -39,11 +120,12 @@
   display: inline-block;
   width: 50%;
   float: right:
+  text-align: right;
 }
 
 .s-footer__copyright-text {
   color: #ffffff;
   font-size: 14px;
-/* font-family: roboto regular; */
+  /* font-family: roboto regular; */
   margin: 0;
 }
