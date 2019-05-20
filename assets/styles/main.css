@@ -17,6 +17,7 @@
 @import './5-objects/o-carousel.css';
 @import './5-objects/o-button.css';
 @import './5-objects/o-title.css';
+@import './5-objects/o-social.css';
 
 /* Components */
 @import url('6-components/c-nav.css');
