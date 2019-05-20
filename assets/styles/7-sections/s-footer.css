@@ -19,7 +19,7 @@
   width: 33%;
   text-align: left;
   display: inline-block;
-  margin-right: 30px;
+  padding-right: 30px;
 }
 
 .s-footer__company-logo {
@@ -37,7 +37,7 @@
   width: 33%;
   text-align: left;
   display: inline-block;
-  margin-right: 30px;
+  padding-right: 30px;
   vertical-align: top;
 }
 
@@ -89,6 +89,21 @@
   width: 17px;
   left: -25px;
   top: 3px;
+}
+
+.s-footer__newsletter-container {
+  width: 33%;
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.s-footer__newsletter-title {
+  text-transform: uppercase;
+  text-align: left;
+  color: #ffffff;
+  /* font-family: roboto-black; */
+  margin-bottom: 40px;
 }
 
 .s-footer__terms-container {

@@ -1,0 +1,32 @@
+.c-form-newsletter {
+
+}
+
+.c-form-newsletter__subscribe-box {
+  height: 45px;
+  width: 210px;
+  border: 1px solid #9e97b1;
+  /* font-family: roboto-light; */
+  display: inline;
+}
+
+.c-form-newsletter__send-button {
+  height: 45px;
+  width: 70px;
+  position: relative;
+  display: inline;
+  margin-bottom: 2px;
+  bottom: 3px;
+  margin-left: 10px;
+}
+
+.c-form-newsletter__send-button:before {
+  content: '';
+  background: url('../../images/form_send-button.png');
+  background-size: cover;
+  position: absolute;
+  width: 70px;
+  height: 45px;
+  top: -2px;
+  left: -2px;
+}

@@ -21,7 +21,8 @@
 /* Components */
 @import url('6-components/c-nav.css');
 @import url('6-components/c-overlay.css');
-@import url('6-components/c-form.css');
+@import url('6-components/c-form-contact.css');
+@import url('6-components/c-form-newsletter.css');
 
 /* Sections */
 @import url('7-sections/s-header.css');
