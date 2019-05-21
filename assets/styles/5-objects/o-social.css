@@ -1,13 +1,17 @@
-.s-footer__social-list {
+.o-social-list {
   list-style-type: none;
   padding: 0;
 }
 
-.s-footer__social-network {
+.o-social-network {
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
-.s-footer__social-network:last-child {
+.o-social-network:last-child {
   margin-right: 0;
+}
+
+.o-social-link {
+
 }
