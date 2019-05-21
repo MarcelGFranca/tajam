@@ -13,6 +13,7 @@ site:
   &bull; usar o jump.js 
 
 header:
-  &bull; quando o menu ficar abaixo da posição inicial, ele vai ficar escuro.
+  * quando o menu ficar abaixo da posição inicial, ele vai ficar escuro.
+  &bull; criar mobile do menu
   &bull; no mobile 320px, irá se transformar em um menu hamburguer
 
