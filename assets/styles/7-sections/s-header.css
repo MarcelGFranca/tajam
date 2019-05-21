@@ -6,6 +6,15 @@
   width: 100%
 }
 
+.s-header--darken {
+  animation: darken 0.8s linear;
+}
+
+.s-header--undarken {
+  animation: undarken 0.8s linear;
+}
+
+
 .s-header__container {
   width: 950px;
   margin: 0 auto;
