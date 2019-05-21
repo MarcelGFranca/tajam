@@ -35,8 +35,18 @@
   text-decoration: none;
   font-size: 13px;
   color: #ffffff;
+  transition: color 0.3s ease-out;
+}
+
+.c-nav__menu-link:hover {
+  color: #00e0d0;
 }
 
 .c-nav__menu-link--colored {
   color: #00e0d0;
+  transition: color 0.3 ease-out;
+}
+
+.c-nav__menu-link--colored:hover {
+  color: #ffffff;
 }

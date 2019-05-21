@@ -6,8 +6,6 @@
   width: 100%;
   background: rgba(41, 35, 75, 0);
   transition: background 1s ease-out, height 1s ease-out, padding-top 1s ease-out;
-  /* transition: height 1s ease-out; */
-  /* transition: padding-top 1s ease-out; */
   padding-top: 20px;
   height: 90px;
 }
@@ -35,7 +33,12 @@
 
 .s-header__logo-img {
   height: 44px;
+  width: 100%;
   display: inline;
+}
+
+.s-header__logo-img:hover {
+  hei
 }
 
 .s-header__logo-text {
