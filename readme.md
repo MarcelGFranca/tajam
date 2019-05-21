@@ -6,8 +6,13 @@ https://mediatemple.net/blog/tips/carousels-dont-have-to-be-complicated/
 
 
 TODO:
-Melhorar o posicionamento do footer.
-Pesquisar carrossel para colocar na seção do time.
-Seção 'Works' está com os boxes quebrando.
-Colocar hover e js em todo o site.
+
+site:
+  &bull; colocar todas as fontes
+  &bull; colocar os ícones como fontes
+  &bull; usar o jump.js 
+
+header:
+  &bull; quando o menu ficar abaixo da posição inicial, ele vai ficar escuro.
+  &bull; no mobile 320px, irá se transformar em um menu hamburguer
 
