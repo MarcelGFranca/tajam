@@ -3,17 +3,20 @@
   z-index: 2;
   margin: 0 auto;
   display: block;
-  width: 100%
+  width: 100%;
+  background: rgba(41, 35, 75, 0);
+  transition: background 1s ease-out;
+  transition: height 1s ease-out;
+  transition: padding-top 1s ease-out;
+  padding-top: 20px;
+  height: 90px;
 }
 
 .s-header--darken {
-  animation: darken 0.8s linear;
+  background: rgba(41, 35, 75, 1);
+  height: 66px;
+  padding-top: 10px;
 }
-
-.s-header--undarken {
-  animation: undarken 0.8s linear;
-}
-
 
 .s-header__container {
   width: 950px;
@@ -23,6 +26,7 @@
 .s-header__logo {
   z-index: 2;
   display: inline-block;
+  margin: 0 0 20px;
 }
 
 .s-header__logo-link {
