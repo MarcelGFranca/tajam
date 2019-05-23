@@ -152,6 +152,10 @@
     width: 100%;
   }
 
+  .s-contact__form-wrapper {
+    margin: 0 10px 50px;
+  }
+
   .s-footer__company,
   .s-footer__address-container {
     width: 49%;
@@ -168,7 +172,11 @@
     text-align: center;
   }
   
-  .s-footer__terms-container {
-    margin: 0 20px;
+  .s-footer__terms,
+  .s-footer__copyright-container {
+    width: 100%;
+    margin-bottom: 5px;
+    float: none;
+    text-align: center;
   }
 }
