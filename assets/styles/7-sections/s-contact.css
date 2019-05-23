@@ -10,6 +10,7 @@
 
 .s-contact__form-wrapper {
   max-width: 530px;
+  width: 100%;
   display: inline-block;
 }
 
@@ -43,6 +44,7 @@
   width: 160px;
   height: 80px;
   text-align: center;
+  margin: 0 auto;
 }
 
 @media only screen and (max-width: 1023px) {
@@ -56,4 +58,13 @@
     width: 100%;
     margin-bottom: 50px;
   }
+}
+
+@media only screen and (max-width: 676px){
+  .s-contact__clients-box-wrapper--left,
+  .s-contact__clients-box-wrapper--right {
+    display: block;
+    margin: 0;
+  }
+
 }
