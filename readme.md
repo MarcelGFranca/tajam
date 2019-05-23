@@ -1,22 +1,24 @@
-Referências
+# Tajam
+
+Project to training and develop vanilla HTML, vanilla CSS and vanilla JavaScript, alongside BEM CSS structure, SEO and semantics of a webpage. 
 
 
-# Carrossel utilizando apenas CSS
+#### References
+
+- Carousel utilizing only CSS:
 https://mediatemple.net/blog/tips/carousels-dont-have-to-be-complicated/
 
-# Menu hamburger css only
+- Hamburguer Menu CSS only:
 https://codepen.io/anon/pen/KLyqeG
 
 
-TODO:
+#### TODO:
 
 site:
-  &bull; colocar todas as fontes
-  &bull; colocar os ícones como fontes
-  &bull; usar o jump.js 
+  - all fonts
+  - icons as fonts
+  - use of jump.js on desktop page
 
 header:
-  * quando o menu ficar abaixo da posição inicial, ele vai ficar escuro.
-  &bull; criar mobile do menu
-  &bull; no mobile 320px, irá se transformar em um menu hamburguer
+  &bull; create mobile menu
 
