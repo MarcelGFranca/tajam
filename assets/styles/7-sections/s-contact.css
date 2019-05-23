@@ -4,14 +4,13 @@
 
 .s-contact__container {
   margin: 70px auto 0;
-  min-width: 940px;
+  max-width: 940px;
   text-align: center;
 }
 
 .s-contact__form-wrapper {
   max-width: 530px;
   display: inline-block;
-  margin-right: 120px;
 }
 
 .s-contact__form-button {

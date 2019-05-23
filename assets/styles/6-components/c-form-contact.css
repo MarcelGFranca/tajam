@@ -1,6 +1,7 @@
 .c-form-contact {
-  width: 460px;
-  width: 460px;
+  max-width: 460px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .c-form-contact__title {
