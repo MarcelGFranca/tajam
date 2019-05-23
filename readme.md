@@ -20,5 +20,5 @@ site:
   - use of jump.js on desktop page
 
 header:
-  &bull; create mobile menu
+  - create mobile menu
 
