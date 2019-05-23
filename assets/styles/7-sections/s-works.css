@@ -1,11 +1,12 @@
 .s-works {
-  height: 740px;
+  height: 100%;
+  min-height: 740px;
   width: 100%;
 }
 
 .s-works__title-container {
   width: 940px;
-  height: 110px;
+  min-height: 110px;
   margin: 70px auto 0;
 }
 
@@ -33,11 +34,13 @@
 .s-works__works-container {
   margin: 0 auto;
   display: block;
+  text-align: center;
 }
 
 .s-works__works-box {
-  width: 267px;;
+  min-width: 267px;
   height: 200px;
+  min-height: 200px;
   display: inline-block;
 }
 
@@ -96,9 +99,17 @@
 .s-works__button-wrapper {
   margin: 70px auto;
   position: relative;
+  height: 70px;
 }
 
 .s-works__button {
   display: block;
   position: absolute;
+}
+
+@media only screen and (max-width: 1023px) {
+  .s-works__title-container {
+    width: 100%;
+    padding: 0 20px;
+  }
 }
