@@ -1,5 +1,6 @@
 .s-team {
-  height: 715px;
+  height: 100%;
+  min-height: 715px;
   background: url('../../images/team_bg.png');
   background-position: top;
   background-size: cover;
@@ -71,6 +72,7 @@
 
 .s-team__hire-wrapper {
   margin-top: 70px;
+  height: 140px;
 }
 
 .s-team__hire-text {
@@ -84,4 +86,10 @@
   /* font-family: hammersmith one */ 
   position: absolute; 
   display: block;
+}
+
+@media only screen and (max-width: 1023px) {
+  .s-team {
+    min-height: 900px;
+  }
 }
