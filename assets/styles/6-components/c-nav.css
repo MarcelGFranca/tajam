@@ -50,3 +50,13 @@
 .c-nav__menu-link--colored:hover {
   color: #ffffff;
 }
+
+@media only screen and (max-width: 1023px) {
+  .c-nav__menu {
+    width: 100%;
+  }
+
+  .c-nav__menu-item {
+    width: 33%;
+  }
+}
