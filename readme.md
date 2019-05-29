@@ -1,6 +1,6 @@
 # Tajam
 
-Project to training and develop vanilla HTML, vanilla CSS and vanilla JavaScript, alongside BEM CSS structure, SEO and semantics of a webpage. 
+Project to train and develop using vanilla HTML, vanilla CSS and vanilla JavaScript, alongside BEM CSS structure, SEO and semantics of a webpage. 
 
 
 #### References
