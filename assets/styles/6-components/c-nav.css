@@ -9,6 +9,10 @@
   z-index: 2;
 }
 
+.c-nav__button {
+  /* display: none; */
+}
+
 .c-nav__menu {
   text-align: right;
   list-style: none;
@@ -75,5 +79,9 @@
   
   .c-nav__menu-item:last-child {
     margin: 0;
+  }
+
+  .c-nav__menu-item:nth-child(even) {
+    color: red;
   }
 }
