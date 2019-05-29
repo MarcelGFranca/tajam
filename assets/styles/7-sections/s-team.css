@@ -8,7 +8,7 @@
 }
 
 .s-team__title-container {
-  width: 405px;
+  max-width: 405px;
   height: 70px;
   margin: 0 auto;
   padding: 70px 0 0;
