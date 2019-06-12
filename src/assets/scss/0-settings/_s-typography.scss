@@ -1,15 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
 $font-weight-regular: 400;
-$font-weight-bold: 700;
+$font-weight-bold: 600;
 
-@font-face {
-  font-family: 'Playfair-Display-Black';
-  src:
-  url('../../fonts/playfair-display-black/Playfair-Display-Black.ttf.woff') format('woff'),
-  url('../../fonts/playfair-display-black/Playfair-Display-Black.ttf.svg#Playfair-Display-Black') format('svg'),
-  url('../../fonts/playfair-display-black/Playfair-Display-Black.ttf.eot'),
-  url('../../fonts/playfair-display-black/Playfair-Display-Black.eot?#iefix') format('embedded-opentype');
-  font-weight: $font-weight-regular;
-  font-style: normal;
-}
 
-$font-family-main: 'Playfair-Display-Black', sans-serif;
+$font-family-main: 'Playfair-Display';
