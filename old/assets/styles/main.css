@@ -1,41 +1,42 @@
  /* Settings */
-@import url('0-settings/s-colors.css');
-@import url('0-settings/s-typography.css');
+@import './0-settings/s-colors.css';
+@import './0-settings/s-typography.css';
 
 /* Vendors */
-@import url('1-vendor/v-normalize.css');
+@import './1-vendor/v-normalize.css';
 
 /* Tools */
-@import url('2-tools/t-container.css');
+@import './2-tools/t-container.css';
 
 /* Animations */
-@import url('3-animations/a-darken.css');
+@import './3-animations/a-darken.css';
 
 /* Base */
-@import url('4-base/b-defaults.css');
+@import './4-base/b-defaults.css';
 
 /* Objetcs */
 @import './5-objects/o-carousel.css';
 @import './5-objects/o-button.css';
 @import './5-objects/o-title.css';
-@import url('./5-objects/o-social.css');
+@import './5-objects/o-social.css';
+@import './5-objects/o-hamburguer.css';
 
 /* Components */
-@import url('6-components/c-nav.css');
-@import url('6-components/c-overlay.css');
-@import url('6-components/c-form-contact.css');
-@import url('6-components/c-form-newsletter.css');
+@import './6-components/c-nav.css';
+@import './6-components/c-overlay.css';
+@import './6-components/c-form-contact.css';
+@import './6-components/c-form-newsletter.css';
 
 /* Sections */
-@import url('7-sections/s-header.css');
-@import url('7-sections/s-webdoor.css');
-@import url('7-sections/s-story.css');
-@import url('7-sections/s-expertise.css');
-@import url('7-sections/s-team.css');
-@import url('7-sections/s-works.css');
-@import url('7-sections/s-testimonial.css');
-@import url('7-sections/s-contact.css');
-@import url('7-sections/s-footer.css');
+@import './7-sections/s-header.css';
+@import './7-sections/s-webdoor.css';
+@import './7-sections/s-story.css';
+@import './7-sections/s-expertise.css';
+@import './7-sections/s-team.css';
+@import './7-sections/s-works.css';
+@import './7-sections/s-testimonial.css';
+@import './7-sections/s-contact.css';
+@import './7-sections/s-footer.css';
 
 /* Layouts */
 
