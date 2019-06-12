@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "project";
+  src: url("../fonts/project.eot?n1cpfm");
+  src:
+    url("../fonts/project.eot?n1cpfm#iefix") format("embedded-opentype"),
+    url("../fonts/project.ttf?n1cpfm") format("truetype"),
+    url("../fonts/project.woff?n1cpfm") format("woff"),
+    url("../fonts/project.svg?n1cpfm#project") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+$style-icons-map: (
+  plus: "\e901",
+  arrow: "\e90b",
+  close: "\e90d",
+);
+
+@mixin icon($icon) {
+  content: map-get($style-icons-map, $icon);
+  font-family: "project";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  speak: none;
+  text-transform: none;
+}

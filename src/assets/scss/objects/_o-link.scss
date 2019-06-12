@@ -1,0 +1,8 @@
+.o-link {
+  color: $color-black;
+  text-decoration: underline;
+
+  &:hover {
+    color: lighten($color-black, 20%);
+  }
+}

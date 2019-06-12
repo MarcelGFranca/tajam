@@ -1,0 +1,12 @@
+{
+  "html": {
+    "home": {
+      "template": "index.njk",
+      "filename": "index.html"
+    },
+    "sobre": {
+      "template": "sobre.njk",
+      "filename": "sobre.html"
+    }
+  }
+}

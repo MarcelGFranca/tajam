@@ -1,0 +1,22 @@
+$font-weight-regular: 400;
+$font-weight-bold: 700;
+
+@font-face {
+  font-family: 'example';
+  src:
+    url('../fonts/example.woff') format('woff2'),
+    url('../fonts/example.woff') format('woff');
+  font-weight: $font-weight-bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'example';
+  src:
+    url('../fonts/example.woff2') format('woff2'),
+    url('../fonts/example.woff') format('woff');
+  font-weight: $font-weight-regular;
+  font-style: normal;
+}
+
+$font-family-main: 'example', sans-serif;
