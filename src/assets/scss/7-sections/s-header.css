@@ -1,0 +1,59 @@
+.s-header {
+  position: fixed;
+  z-index: 2;
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  background: rgba(41, 35, 75, 0);
+  transition: background 1s linear, height 1s linear, padding-top 1s linear;
+  padding-top: 20px;
+  height: 90px;
+}
+
+.s-header--darken {
+  background: rgba(41, 35, 75, 1);
+  height: 66px;
+  padding-top: 10px;
+}
+
+.s-header__container {
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.s-header__logo {
+  z-index: 2;
+  display: inline-block;
+  margin: 0 0 20px;
+}
+
+.s-header__logo-link {
+  text-decoration: none;
+}
+
+.s-header__logo-img {
+  height: 44px;
+  width: 113px;
+  display: inline-block;
+}
+
+.s-header__logo-text {
+  color: #00e0d0;
+  display: inline;
+  font-family: 'Roboto';
+  font-weight: 100;
+  bottom: 10px;
+  position: relative;
+}
+
+.s-webdoor__button {
+  display: block;
+  position: absolute;
+}
+
+@media only screen and (max-width: 1023px) {
+  .s-header__container {
+    padding: 0 20px;
+  }
+}

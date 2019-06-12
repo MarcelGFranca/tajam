@@ -1,0 +1,14 @@
+.o-social-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.o-social-network {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.o-social-network:last-child {
+  margin-right: 0;
+}
+

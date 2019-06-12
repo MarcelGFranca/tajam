@@ -1,0 +1,58 @@
+.c-form-contact {
+  max-width: 460px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.c-form-contact__title {
+  font-size: 22px;
+  /* font-family: playfairdisplaybold; */
+  text-transform: uppercase;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.c-form-contact__form-wrapper {
+
+}
+
+.c-form-contact__form {
+
+}
+
+.c-form-contact__form-row {
+  display: block;
+  margin-bottom: 20px;
+  position: relative;
+  /* padding: 0 5px; */
+}
+
+.c-form-contact__label {
+  display: block;
+  position: relative;
+  /* font-family: roboto light; */
+  position: absolute;
+  padding: 0;
+  font-size: 20px;
+  color: #413d4b;
+  top: 10px;
+  left: 20px;
+}
+
+.c-form-contact__field {
+  width: 100%;
+  height: 45px;
+  border: 1px solid #e5e5e5;
+}
+
+.c-form-contact__field--textarea {
+  width: 100%;
+  height: 200px;
+  border: 1px solid #e5e5e5;
+}
+
+.c-form-contact__send-button {
+  background-color: #ffffff;
+  position: relative;
+  padding: 0;
+}
