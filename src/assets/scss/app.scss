@@ -1,10 +1,9 @@
+// Settings
+@import "0-settings/s-colors";
+@import "0-settings/s-typography";
 
 // Vendors
 @import "node_modules/normalize.css/normalize";
-
-// Settings
-@import "0-settings/s-colors";
-// @import "0-settings/s-typography";
 
 // Tools
 @import "tools/t-respond-to";
@@ -13,16 +12,20 @@
 @import "tools/t-vw";
 @import "tools/t-site-limit";
 
+// Animations
+
 // Base
-@import "base/b-defaults";
+@import "4-base/b-defaults";
 
 // Objects
 @import "objects/o-button";
 @import "objects/o-link";
 
 // Components
-@import "components/c-header";
-@import "components/c-footer";
+@import "6-components/c-form-contact";
+@import "6-components/c-form-newsletter";
+@import "6-components/c-nav";
+@import "6-components/c-nav";
 
 // Animations
 
