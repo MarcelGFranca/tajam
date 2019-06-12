@@ -3,8 +3,8 @@
 @import "node_modules/normalize.css/normalize";
 
 // Settings
-@import "settings/s-colors";
-@import "settings/s-typography";
+@import "0-settings/s-colors";
+// @import "0-settings/s-typography";
 
 // Tools
 @import "tools/t-respond-to";
@@ -30,4 +30,3 @@
 @import "layouts/l-main";
 
 // Sections
-
