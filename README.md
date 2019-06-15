@@ -1,21 +1,24 @@
-# static-website-airbnb
+# Tajam
 
-> A static webpack boilerplate
+Project to train and develop using vanilla HTML, vanilla CSS and vanilla JavaScript, alongside BEM CSS structure, SEO and semantics of a webpage. 
 
-## Build Setup
 
-``` bash
-# install dependencies
-npm install
+#### References
 
-# serve with hot reload at localhost:8080
-npm run dev
+- Carousel utilizing only CSS:
+https://mediatemple.net/blog/tips/carousels-dont-have-to-be-complicated/
 
-# build for production with minification
-npm run build
+- Hamburguer Menu CSS only:
+https://codepen.io/anon/pen/KLyqeG
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+#### TODO:
+
+site:
+  - all fonts
+  - icons as fonts
+  - use of jump.js on desktop page
+
+header:
+  - create mobile menu
+
