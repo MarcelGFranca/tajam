@@ -1,6 +1,6 @@
 import '../scss/app.scss';
-import Flickity from 'flickity';
+// import Flickity from 'flickity';
 
-window.addEventListener('load', () => {
+// window.addEventListener('load', () => {
   // other.create();
-});
+// });
