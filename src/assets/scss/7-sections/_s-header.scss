@@ -4,14 +4,14 @@
   margin: 0 auto;
   display: block;
   width: 100%;
-  background: rgba(41, 35, 75, 0);
+  background: rgba($color-port-gore, 0);
   transition: background 1s linear, height 1s linear, padding-top 1s linear;
   padding-top: 20px;
   height: 90px;
 }
 
 .s-header--darken {
-  background: rgba(41, 35, 75, 1);
+  background: rgba($color-port-gore, 1);
   height: 66px;
   padding-top: 10px;
 }
@@ -23,9 +23,7 @@
 }
 
 .s-header__logo {
-  z-index: 2;
-  display: inline-block;
-  margin: 0 0 20px;
+  color: $color-robins-egg-blue;
 }
 
 .s-header__logo-link {
@@ -39,7 +37,7 @@
 }
 
 .s-header__logo-text {
-  color: #00e0d0;
+  color: $color-robins-egg-blue;
   display: inline;
   font-family: 'Roboto';
   font-weight: 100;
